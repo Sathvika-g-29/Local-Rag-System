@@ -1,0 +1,5 @@
+Retrieval-Augmented Generation, often shortened to RAG, is a pattern for answering questions with help from external documents. Instead of asking a language model to rely only on what it learned during training, a RAG system first searches a knowledge source and then gives the most relevant text to the model as context.
+
+A basic RAG pipeline has four main steps. First, documents are loaded from a source such as text files, PDFs, web pages, or a database. Second, the documents are split into smaller chunks so that search can find precise passages. Third, the chunks are indexed for retrieval. Many production systems use embedding vectors, but a simple keyword or TF-IDF index can explain the same idea locally. Fourth, the system retrieves useful chunks for a user question and asks a language model to answer using that context.
+
+RAG is useful because it can make answers more grounded, easier to update, and easier to cite. When the source documents change, the index can be rebuilt without retraining the language model. A good RAG answer should stay close to the retrieved context and avoid inventing details that are not present in the documents.

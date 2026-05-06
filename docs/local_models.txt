@@ -1,0 +1,5 @@
+Local language models run on your own computer instead of calling a hosted API. Tools such as Ollama make it easier to download and serve models through a local HTTP endpoint. This is helpful for demos, learning, privacy-sensitive experiments, and offline workflows.
+
+In a small local RAG project, the retrieval code can run entirely in Python. The generation step can be optional. If no local language model is running, the program can still show the retrieved chunks. This makes the project easier to understand because retrieval is visible instead of hidden behind the final answer.
+
+Local models vary in speed and quality depending on the model size and the computer hardware. Smaller models are faster and easier to run, while larger models often produce stronger answers but need more memory.
