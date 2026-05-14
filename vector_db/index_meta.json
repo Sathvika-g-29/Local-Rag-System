@@ -1,0 +1,7 @@
+{
+  "index_key": "bf38f9bdb8f16029cadca5aff3dca610df8752cbb66bc77eec0b5dc6c8c6ef89",
+  "collection": "local_rag_documents_bf38f9bdb8f1",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "database": "chroma",
+  "retrieval_version": "hybrid_bm25_rerank_v1"
+}
