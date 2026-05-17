@@ -46,6 +46,12 @@ Then open the local Streamlit URL shown in the terminal.
 8. Shows confidence and source references.
 9. Sends the retrieved context to a Hugging Face generation model.
 
+## Modular Architecture
+
+```mermaid
+classDiagram
+...
+
 ## Files
 
 ```text
