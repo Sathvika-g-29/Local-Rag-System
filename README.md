@@ -1,4 +1,4 @@
-# Local Hugging Face RAG Demo
+# Local Hugging Face RAG 
 
 This project is a basic local RAG system using Streamlit, Hugging Face models, recursive chunking, broad document loading, caching, and a persistent ChromaDB vector database.
 
